@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 1rem/1.5rem 'Roboto', sans-serif;
+}
+
+.grid {
+  display: grid;
+}
+
+.first-grid {
+   grid-template-columns: 50% 40% 10%;
+  grid-template-rows: 1080px 290px;
+}
+
+.first-grid-background {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url("../images/background.jpg");
+}
+
+.right-grid {
+  grid-row-start: 1;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  
+}
+
+.second-grid {
+  grid-template-rows: 5% 20% 7% 5% 25% 10% 15%;
+  grid-template-columns: 20% 25% 10% 5% 40%;
+}
+
+.spider-man {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+
+.black-panther {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-row-end: 3;
+  grid-column-end: 6;
+    }
+
+.thor {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-row-end: 7;
+  grid-column-end: 4;
+    }
+
+h1 {
+    font-size: 9rem;
+    line-height: 9rem;
+    font-family:'Roboto Slab', serif;
+    color: white;
+    margin-left: 5%;
+}
+
+.button-container {
+    display: flex;
+    margin-bottom: 18px;
+    justify-content: center;
+}
+
+.arrow-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    
+}
+
+.left-button {
+    background-color: #1502ab;
+}
+
+.right-button {
+    background-color: #d40404;
+}
+
+.arrow-button::after {
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 15px;
+    margin-left: 10px;
+}
+
+.Spider-man2 {
+    margin-top: 58rem;
+    margin-left: -6rem;
+    width: 280px;
+}
+
+.button-container {
+      margin-top: 58rem;
+    margin-left: 9.2rem;
+    width: 110px;
+}
+
+.tickets-content {
+    background-color: #f3dfe0;
+     margin-top: 60rem;
+    margin-left: 1.1rem;
+    width: 350px;
+    height: 358px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tickets-content h2 {
+    padding: 5rem 3rem 2rem;
+    line-height: 2rem;
+}
+
+.tickets-content a {
+   font-family: 'Roboto', sans-serif; 
+  text-transform: uppercase;
+    color: #c1465f; 
+    text-decoration: none; 
+    margin-left: 5.5rem;
+    border-style: solid;
+    padding: 10px;
+    
+    
+}
+
+.tickets-content a:hover {
+    font-family: 'Roboto', sans-serif; 
+  text-transform: uppercase;
+    background:#c1465f; 
+    color: white;
+    text-decoration: none; 
+    margin-left: 5.5rem;
+    border-style: solid;
+    padding: 10px;
+    
+    
+}
